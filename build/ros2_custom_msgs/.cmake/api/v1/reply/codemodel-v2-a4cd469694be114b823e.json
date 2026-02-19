@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-48aaa20201f7ed58c0d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "ros2_custom_msgs__py",
+					"jsonFile" : "directory-ros2_custom_msgs__py-ee54509676c771cd18aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/malladi-sujith-babu/ros2_ws/src/ros2-custom-messages-sujithmalladi-029/build/ros2_custom_msgs/ros2_custom_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros2_custom_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros2_custom_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros2_custom_msgs_egg-f2631544610fcc1cdfe2.json",
+					"name" : "ament_cmake_python_build_ros2_custom_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros2_custom_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros2_custom_msgs-a958ffb9d6b3bfc0bfe9.json",
+					"name" : "ament_cmake_python_copy_ros2_custom_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs-d2620ab8f5e4690d62db.json",
+					"name" : "ros2_custom_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__cpp-11e18c5b5042d8a5272b.json",
+					"name" : "ros2_custom_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros2_custom_msgs__py::@21000c371039a40620e4",
+					"jsonFile" : "target-ros2_custom_msgs__py-7ebbe896e69845d0ed31.json",
+					"name" : "ros2_custom_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_generator_c-c28ceeae71468df2bb91.json",
+					"name" : "ros2_custom_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_generator_py-515d56b541ce82579371.json",
+					"name" : "ros2_custom_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_generator_type_description-0f4efbbc9ddc23c5d17c.json",
+					"name" : "ros2_custom_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_typesupport_c-59314ed80be01ed2033c.json",
+					"name" : "ros2_custom_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_typesupport_cpp-475dc8b2fd292451bff9.json",
+					"name" : "ros2_custom_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_typesupport_fastrtps_c-bc3a5838c2e618f5b760.json",
+					"name" : "ros2_custom_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp-a046f9948ac32322870d.json",
+					"name" : "ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_typesupport_introspection_c-98eaf0190640714d6d08.json",
+					"name" : "ros2_custom_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs__rosidl_typesupport_introspection_cpp-a8682ae75c51f8016bcd.json",
+					"name" : "ros2_custom_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs_s__rosidl_typesupport_c-e55d10d3a470ceff6acb.json",
+					"name" : "ros2_custom_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c-e49b24fcfcb7786851eb.json",
+					"name" : "ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs_s__rosidl_typesupport_introspection_c-4e0fa5bc0c90d7aefbff.json",
+					"name" : "ros2_custom_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_custom_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_custom_msgs_uninstall-1c7cc61da25e1b8fbf39.json",
+					"name" : "ros2_custom_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "status_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-status_publisher-ddb42136fea95ddb8bdc.json",
+					"name" : "status_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f16149cbc5995f5da329.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/malladi-sujith-babu/ros2_ws/src/ros2-custom-messages-sujithmalladi-029/build/ros2_custom_msgs",
+		"source" : "/home/malladi-sujith-babu/ros2_ws/src/ros2-custom-messages-sujithmalladi-029/ros2_custom_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
