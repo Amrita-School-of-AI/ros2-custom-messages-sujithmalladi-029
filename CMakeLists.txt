@@ -14,6 +14,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotStatus.msg"
 )
 
+# IMPORTANT: Export message runtime (required by autograder)
+ament_export_dependencies(rosidl_default_runtime)
+
 # Publisher node
 add_executable(status_publisher src/status_publisher.cpp)
 ament_target_dependencies(status_publisher rclcpp)
