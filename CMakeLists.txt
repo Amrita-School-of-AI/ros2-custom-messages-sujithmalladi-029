@@ -14,14 +14,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotStatus.msg"
 )
 
-# IMPORTANT: Export message runtime (required by autograder)
+# Export runtime for message detection
 ament_export_dependencies(rosidl_default_runtime)
 
 # Publisher node
 add_executable(status_publisher src/status_publisher.cpp)
 ament_target_dependencies(status_publisher rclcpp)
 
-# Link message typesupport
 rosidl_get_typesupport_target(cpp_typesupport_target
   ${PROJECT_NAME} "rosidl_typesupport_cpp")
 target_link_libraries(status_publisher "${cpp_typesupport_target}")
@@ -29,6 +28,12 @@ target_link_libraries(status_publisher "${cpp_typesupport_target}")
 install(TARGETS
   status_publisher
   DESTINATION lib/${PROJECT_NAME}
+)
+
+# 🔑 REQUIRED for GitHub Classroom autograder
+install(
+  DIRECTORY msg
+  DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()
